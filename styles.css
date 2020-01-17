@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+body{
+  color: white;
+  background-origin: border-box;
+  background-color: black;
+  background-image: url('background/astro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 56px;
+  font-style: normal;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.clockside{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-right:100px;
+    margin-left:1300px;
+    padding: 10px;
+  }
+.badge2{
+  margin-left:32px;
+  background-color: rgba(100, 100, 100, .7);
+  box-shadow: 5px 5px rgba(15, 15, 15, .5);
+  border-radius: 10px;
+  width: 70px;
+  }
+.clockmain{
+  background-color: rgba(100, 100, 100, .7);
+  box-shadow: 5px 10px rgba(15, 15, 15, .5);
+  width: 433px;
+  height: 373px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+.badge{
+  background-color: rgba(0, 0, 0, .4);
+  font-weight: bold;
+  margin-top: 120px;
+  position: absolute;
+  top: -160px;
+  left: 100px;
+  right: 100px;
+  border-radius: 3px;
+}
+.clock{
+  color:white;
+  background-color: rgba(40, 40, 40, .4);
+  box-shadow: 3px 5px rgba(20, 20, 20, .7);
+  text-align: center;
+  height:20%;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 10px;
+
+
+
+
+}
+.text1{
+  font-size: 46px;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+  padding: 50px 50px;
+  font-family: 'Dokdo', cursive;
+  transition: background-size .4s ease;
+
+}
